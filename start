@@ -1,0 +1,2 @@
+#!/bin/sh
+/sbin/su-exec nobody /usr/bin/statsd ${CONFIG_FILE:-/config/config.js}
